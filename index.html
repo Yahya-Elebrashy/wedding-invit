@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="دعوة زفاف فاخرة — يسعدنا تشريفكم ومشاركتنا أجمل أيام حياتنا." />
+    <title>دعوة زفاف</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Amiri:ital@0;1&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/assets/index-DzDdAHd5.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CuYaitSg.css">
+  </head>
+  <body>
+    <!-- جسيمات الضوء -->
+    <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+
+    <!-- زخارف نباتية عائمة (SVG) -->
+    <div class="floating-decor" aria-hidden="true">
+      <svg class="leaf leaf-1" viewBox="0 0 100 100"><path d="M50 5 Q20 30 25 60 Q30 85 50 95 Q70 85 75 60 Q80 30 50 5 Z M50 5 L50 95" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M50 25 Q35 35 32 50 M50 25 Q65 35 68 50 M50 45 Q38 52 36 65 M50 45 Q62 52 64 65" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+      <svg class="leaf leaf-2" viewBox="0 0 100 100"><path d="M50 5 Q15 35 20 65 Q35 90 50 95 Q65 90 80 65 Q85 35 50 5 Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M50 10 L50 90" stroke="currentColor" stroke-width="1" fill="none"/></svg>
+      <svg class="leaf leaf-3" viewBox="0 0 100 100"><circle cx="50" cy="50" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="1"/><path d="M50 20 L50 5 M50 95 L50 80 M20 50 L5 50 M95 50 L80 50 M28 28 L18 18 M72 28 L82 18 M28 72 L18 82 M72 72 L82 82" stroke="currentColor" stroke-width="1"/></svg>
+      <svg class="leaf leaf-4" viewBox="0 0 100 100"><path d="M50 5 Q20 30 25 60 Q30 85 50 95 Q70 85 75 60 Q80 30 50 5 Z M50 5 L50 95" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+      <svg class="leaf leaf-5" viewBox="0 0 100 100"><path d="M50 5 Q15 35 20 65 Q35 90 50 95 Q65 90 80 65 Q85 35 50 5 Z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+    </div>
+
+    <!-- ===================== القسم الرئيسي ===================== -->
+    <header class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-crest reveal" data-reveal="fade">
+          <svg viewBox="0 0 120 40" class="crest-svg"><path d="M5 20 Q30 5 55 20 Q85 35 115 20" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="60" cy="20" r="3" fill="currentColor"/></svg>
+        </div>
+        <p class="basmala reveal" data-reveal="fade">بسم الله الرحمن الرحيم</p>
+        <p class="hero-intro reveal" data-reveal="fade-up">يسر عائلتا العروسين دعوتكم لتشريفنا وحضور أجمل أيام حياتنا ومشاركتنا فرحتنا.</p>
+
+        <div class="hero-collage reveal" data-reveal="scale">
+          <div class="frame frame-side frame-tl">
+            <img data-hero="side1" alt="العروسان" loading="lazy" />
+            <div class="frame-corner tl"></div><div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div><div class="frame-corner br"></div>
+          </div>
+          <div class="frame frame-main">
+            <img data-hero="main" alt="العروسان" loading="lazy" />
+            <div class="frame-glow"></div>
+            <div class="frame-corner tl"></div><div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div><div class="frame-corner br"></div>
+          </div>
+          <div class="frame frame-side frame-br">
+            <img data-hero="side2" alt="العروسان" loading="lazy" />
+            <div class="frame-corner tl"></div><div class="frame-corner tr"></div>
+            <div class="frame-corner bl"></div><div class="frame-corner br"></div>
+          </div>
+        </div>
+
+        <div class="names reveal" data-reveal="fade-up">
+          <span class="name-orn">⟡</span>
+          <span class="name" data-groom></span>
+          <span class="heart">♥</span>
+          <span class="name" data-bride></span>
+          <span class="name-orn">⟡</span>
+        </div>
+
+        <button class="btn-primary reveal" data-reveal="fade-up" id="openDetails">عرض تفاصيل الدعوة</button>
+
+        <a href="#countdown" class="scroll-cue" aria-label="مرر للأسفل">
+          <span class="mouse"><span class="wheel"></span></span>
+        </a>
+      </div>
+    </header>
+
+    <!-- ===================== العداد التنازلي ===================== -->
+    <section class="section countdown-section" id="countdown">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">العد التنازلي لليوم المنتظر</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="countdown" id="countdown-box">
+        <div class="cd-unit"><span class="cd-num" data-cd="days">00</span><span class="cd-label">يوم</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span class="cd-num" data-cd="hours">00</span><span class="cd-label">ساعة</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span class="cd-num" data-cd="minutes">00</span><span class="cd-label">دقيقة</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span class="cd-num" data-cd="seconds">00</span><span class="cd-label">ثانية</span></div>
+      </div>
+    </section>
+
+    <!-- ===================== ليلة الحنة ===================== -->
+    <section class="section" id="henna">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">دعوة لحضور ليلة الحنة</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="card reveal" data-reveal="fade-up">
+        <div class="card-icon">
+          <svg viewBox="0 0 64 64" class="icon-svg"><path d="M32 8 Q18 20 18 36 Q18 50 32 56 Q46 50 46 36 Q46 20 32 8 Z M32 8 L32 56" fill="none" stroke="currentColor" stroke-width="2"/><path d="M32 22 Q24 28 22 38 M32 22 Q40 28 42 38 M32 36 Q26 40 25 48 M32 36 Q38 40 39 48" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        </div>
+        <ul class="details">
+          <li><span class="dl">اليوم</span><span data-henna="day"></span></li>
+          <li><span class="dl">التاريخ</span><span data-henna="date"></span></li>
+          <li><span class="dl">الوقت</span><span data-henna="time"></span></li>
+          <li><span class="dl">المكان</span><span data-henna="venue"></span></li>
+          <li><span class="dl">العنوان</span><span data-henna="address"></span></li>
+        </ul>
+        <a class="btn-outline" data-henna-btn target="_blank" rel="noopener">عرض الموقع على الخريطة</a>
+      </div>
+    </section>
+
+    <!-- ===================== حفل الزفاف ===================== -->
+    <section class="section" id="wedding">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">دعوة لحضور حفل الزفاف</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="card reveal" data-reveal="fade-up">
+        <div class="card-icon">
+          <svg viewBox="0 0 64 64" class="icon-svg"><circle cx="24" cy="28" r="14" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="40" cy="28" r="14" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 44 L20 56 M44 44 L44 56 M20 50 L44 50" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </div>
+        <ul class="details">
+          <li><span class="dl">اليوم</span><span data-wedding="day"></span></li>
+          <li><span class="dl">التاريخ</span><span data-wedding="date"></span></li>
+          <li><span class="dl">الوقت</span><span data-wedding="time"></span></li>
+          <li><span class="dl">القاعة</span><span data-wedding="venue"></span></li>
+          <li><span class="dl">العنوان</span><span data-wedding="address"></span></li>
+        </ul>
+        <a class="btn-outline" data-wedding-btn target="_blank" rel="noopener">عرض الموقع على الخريطة</a>
+      </div>
+    </section>
+
+    <!-- ===================== الجدول الزمني ===================== -->
+    <section class="section" id="timeline">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">الجدول الزمني للحفل</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="timeline" id="timeline-list"></div>
+    </section>
+
+    <!-- ===================== معرض الصور ===================== -->
+    <section class="section" id="gallery">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">معرض الصور</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="gallery" id="gallery-grid"></div>
+    </section>
+
+    <!-- ===================== الموقع ===================== -->
+    <section class="section" id="location">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">الموقع</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="maps">
+        <div class="map-card reveal" data-reveal="fade-up">
+          <h3>موقع ليلة الحنة</h3>
+          <iframe data-map="henna" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="btn-outline" data-henna-btn target="_blank" rel="noopener">فتح في خرائط Google</a>
+        </div>
+        <div class="map-card reveal" data-reveal="fade-up">
+          <h3>موقع قاعة الزفاف</h3>
+          <iframe data-map="wedding" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="btn-outline" data-wedding-btn target="_blank" rel="noopener">فتح في خرائط Google</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== التواصل ===================== -->
+    <!-- <section class="section" id="contact">
+      <div class="section-head reveal" data-reveal="fade-up">
+        <span class="head-orn">✦</span>
+        <h2 class="section-title">للتواصل</h2>
+        <span class="head-orn">✦</span>
+      </div>
+      <div class="divider reveal" data-reveal="fade"></div>
+      <div class="contact-cards">
+        <div class="card contact-card reveal" data-reveal="fade-up">
+          <h3>العريس</h3>
+          <p class="contact-name" data-groom></p>
+          <div class="contact-actions">
+            <a class="btn-outline" data-call="groom">اتصال</a>
+            <a class="btn-outline" data-wa="groom" target="_blank" rel="noopener">واتساب</a>
+          </div>
+        </div>
+        <div class="card contact-card reveal" data-reveal="fade-up">
+          <h3>العروس</h3>
+          <p class="contact-name" data-bride></p>
+          <div class="contact-actions">
+            <a class="btn-outline" data-call="bride">اتصال</a>
+            <a class="btn-outline" data-wa="bride" target="_blank" rel="noopener">واتساب</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ===================== التذييل ===================== -->
+    <footer class="footer">
+      <svg viewBox="0 0 200 30" class="footer-flourish"><path d="M10 15 Q50 5 100 15 Q150 25 190 15" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="100" cy="15" r="3" fill="currentColor"/></svg>
+      <p class="footer-msg" data-footer></p>
+      <p class="footer-credit">صُنع بحب ♥</p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" id="lb-close" aria-label="إغلاق">&times;</button>
+      <img id="lb-img" alt="صورة مكبرة" />
+    </div>
+
+  </body>
+</html>
